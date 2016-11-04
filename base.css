@@ -1,0 +1,83 @@
+body {
+    height: 3600px;
+    width: 1888px;
+}
+
+.bannerContainer {
+    text-align: center;
+    background-color: orangered;
+    position: relative;
+    left: 434px;
+    width: 1020px;
+    height: 96px;
+}
+
+.navbar {
+    height: 24px;
+    width: 1020px;
+    text-align: center;
+    background-color: grey;
+    position: relative;
+    left: 434px;
+    padding-top: 12px;
+    top: 2px;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    font-size: 36px;
+    position: relative;
+    bottom: 38px;
+    padding: 16px;
+    padding-left: 44px;
+}
+
+.btn.btn-primary {
+    width: 96px;
+    height: 28px;
+    font-family: "Trebuchet MS", Arial;
+}
+
+.btn.btn-primary:hover {
+    background-color: darkgray;
+    border: solid darkblue;
+}
+
+.topWrapper {
+    height: 136px;
+    width: 100%;
+    position: static;
+    background-color: blue;
+    padding-top: 12px;
+}
+
+.leftWrapper {
+    height: 100%;
+    width: 225px;
+    position: static;
+    display: block;
+    background-color: blue;
+    float: left;
+}
+
+.rightWrapper {
+    height: 100%;
+    width: 225px;
+    position: static;
+    display: block;
+    background-color: blue;
+    float: right;
+}
+
+.bottomWrapper {
+    height: 136px;
+    width: 100%;
+    position: relative;
+    background-color: blue;
+    display: inline-block;
+    padding-bottom: 12px;
+}
+.mainForm {
+    text-align: center;
+}
