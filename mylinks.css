@@ -7,7 +7,7 @@ body {
     color: red;
 }
 
-#linklist li:hover {
+li:hover {
     color: yellow;
     background-color: red;
     text-decoration: none;
