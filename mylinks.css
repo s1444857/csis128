@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#linklist:link {
+    color: red;
+}
+
+#linklist:hover {
+    color: yellow;
+    background-color: red;
+    text-decoration: none;
+}
+
