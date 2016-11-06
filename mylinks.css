@@ -11,5 +11,6 @@ a:hover {
     color: yellow;
     background-color: red;
     text-decoration: none;
+    text-decoration-style: none;
 }
 
