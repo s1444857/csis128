@@ -41,7 +41,7 @@ body {
     left: 434px;
     width: 1020px;
     height: 96px;
-    opacity: 0.6;
+
 }
 
 .navbar {
@@ -51,10 +51,6 @@ body {
     background-color: grey;
     position: absolute;
     left: 32px;
-}
-
-#sidebar {
-    opacity: 0.8;
 }
 
 .navbar a {
