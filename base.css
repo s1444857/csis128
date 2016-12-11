@@ -1,17 +1,21 @@
+html{
+    font-family: 'Merriweather', Arial, sans-serif;
+}
 body {
     height: 3600px;
     width: auto;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 .mainBody {
     display: -webkit-flex;
     display : flex;
     direction: ltr;
     height: 100%;
-    background-color: #80b3ff;
+    background-color: lightgray;
     flex: auto;
     width: auto;
     margin: auto;
+    align-content: center;
+    border: 2px solid #193051;
 }
 
 #mainHeader {
@@ -20,20 +24,107 @@ body {
     font-size: 36px;
     width: 100%;
     height: 32px;
-    background-color: #80b3ff;
+    background-color: #EFEFEF;
     text-decoration: underline;
 }
 
-#introParagraph {
-    font-size: 18px;
-    color: black;
-    text-align: center;
-    width: 50%;
+.bodyHeader {
     position: relative;
-    top:
+    left: 44px;
+    top: 22px;
+}
+
+.introParagraph {
+    font-size: 18px;
+    width: 80%;
+    height: 150px;
+    position: relative;
+    left: 143.705px;
+    top: 40px;
+    text-align: left;
+}
+
+.secondHeader {
+    position: relative;
+    left: 44px;
+}
+
+.secondParagraph {
+    position: relative;
+    left: 130px;
+    font-size: 18px;
+}
+
+.introDiv {
+    height: 200px;
+    width: 100%;
+    text-align: left;
+    align-content: center;
+}
+
+.topContainer {
+    float: left;
+    background: linear-gradient(to bottom,#b2def5 0,#69add3 4%,#4d88a8 100%);
+    position: static;
+    width: 100%;
+    height: 100%;
+    padding-top: 12px;
+}
+
+#logo {
+    float: left;
+}
+
+#nameContainer {
+    text-align: left;
+    position: relative;
+    top: 20px;
+}
+
+.name {
+    color: rgb(38, 89, 142);
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #3a5170;
+    top: 98px;
+    right: 172px;
+    position: relative;
+}
+#townName {
+    float: right;
+    position: relative;
+    left: 170px;
+}
+
+#townName:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+#mosatop {
+    float: right;
+    position: relative;
 
 }
 
+#missouri {
+    height: 112.5px;
+    width: 50%;
+    position: relative;
+    bottom: 14px;
+    left: 50px;
+}
+
+#satopHeaderContainer {
+    text-align: center;
+    position: relative;
+    left: 220px;
+    bottom: 120px;
+}
+
+#satopHeader {
+    text-align: center;
+    font-size: 42px;
+}
 .bannerContainer {
     text-align: center;
     background-color: lightgray;
@@ -41,16 +132,21 @@ body {
     left: 434px;
     width: 1020px;
     height: 96px;
-
 }
 
 .navbar {
-    height: 322px;
+    height: 388px;
     width: 175px;
     text-align: center;
-    background-color: grey;
-    position: absolute;
-    left: 32px;
+    background: linear-gradient(to bottom,#b2def5 0,#69add3 4%,#4d88a8 100%);
+    position: relative;
+    left: 22px;
+    box-shadow: 3px 3px #193051;
+    top: 40px;
+}
+
+#sidebar {
+
 }
 
 .navbar a {
@@ -66,40 +162,119 @@ body {
     height: 36px;
     font-size: 14px;
     opacity: 0.95;
+    box-shadow: 1px 1px 2px 2px #3a5170;
+    background: linear-gradient(to bottom, #F8F8F8 50%, #F0F0F0 40%);
 }
 
 .btn.btn-primary:hover {
+    background: #C8C8C8;
+    border: 2px solid #3a5170 ;
+}
+
+.btn.btn-primary:active {
     background-color: darkgray;
-    border: solid darkblue;
+    box-shadow: none;
+    transform: translateY(2px);
+    margin-bottom: -3px;
+    margin-top: 3px;
 }
 
 .topWrapper {
-    background-image: url("bo_play_pattern.png");
-    height: 136px;
+    height: 158px;
     width: 100%;
     position: static;
-    background-color: blue;
+    background-color: #3a5170;
     padding-top: 4px;
 }
 
 .leftWrapper {
-    background-image: url("bo_play_pattern.png");
+    background-color: #3a5170;
     height: 100%;
     width: 225px;
     position: static;
     display: block;
-    background-color: blue;
     float: left;
+}
+
+.rightWrapper {
+    background-color: #3a5170;
+    height: 100%;
+    width: 225px;
+    position: static;
+    display: block;
+    float: right;
+}
+
+#dmhContainer {
+    height: 46px;
+    width: 225px;
+}
+
+#dmhContainer:hover {
+    background: yellow;
+    border: 3px solid #3a5170;
+}
+
+#dmhLogo {
+    height: 100%;
+    width: 100%;
 }
 
 .bottomWrapper {
     height: 136px;
     width: 100%;
     position: relative;
-    background-color: blue;
+    background-color: #3a5170;
     display: inline-block;
     padding-bottom: 12px;
 }
 .mainForm {
     text-align: center;
+    position: relative;
+    left: 388px;
+}
+
+#sched {
+    word-wrap: break-word;
+}
+
+#info {
+    word-wrap: break-word;
+}
+
+.serviceHeader {
+    position: relative;
+    left: 88px;
+    text-decoration: underline;
+}
+
+.serviceDescriptionHeader {
+    position: relative;
+    left: 96px;
+}
+
+.serviceDescription {
+    position: relative;
+    left: 112px;
+}
+
+body div table tr td {
+    border: 1px solid black;
+    height: 88px;
+}
+
+body div table {
+    position: relative;
+    top: 188px;
+    left: 188px;
+    border: 2px solid black;
+    height: 288px;
+}
+
+.quickLinks {
+    color: white;
+    position: relative;
+    left: 72px;
+    top: 2px;
+    font-size: 12px;
 }

@@ -1,72 +1,90 @@
 <html>
-<head>
-    <script src="jquery.js"></script>
-    <script type="text/javascript" src="core.js"></script>
-    <link rel="stylesheet" type="text/css" href="base.css">
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src>
-        $(document).ready(function(){
-            $("#commentForm").validate();
-        });
-    </script>
-    <style type="text/css">
-        label { width: 10em; float: none; }
-        label.error { float: none; color: red; padding-left: .5em; vertical-align: top; }
-        p { clear: both; }
-        .submit { margin-left: 12em; }
-        em { font-weight: bold; padding-right: 1em; vertical-align: top; }
-    </style>
-</head>
-<body>
-<div class="topWrapper">
-    <div class="bannerContainer">
-                <span>
-                    BANNER
-                </span>
-    </div>
-    <div class="navbar">
-                <span>
-                    <a href="index.html"><button type="button" class="btn btn-primary">HOME</button></a>
-                    <a href="#"><button type="button" class="btn btn-primary">button2</button></a>
-                    <a href="#"><button type="button" class="btn btn-primary">button3</button></a>
-                    <a href="#"><button type="button" class="btn btn-primary">button4</button></a>
-                    <a href="contact_us.html"><button type="button" class="btn btn-primary">CONTACT US</button></a>
-                </span>
-    </div>
-    <div class="mainForm">
-        <br>&nbsp;
-        <br>&nbsp;<br>
-        <form class="cmxform" id="commentForm" method="POST" action="">
-            <fieldset>
+    <head>
+        <script src="jquery.js"></script>
+        <script type="text/javascript" src="core.js"></script>
+        <link rel="stylesheet" type="text/css" href="base.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>DTOAS - Contact Us</title>
+        <script src>
+            $(document).ready(function(){
+                $("#commentForm").validate();
+            });
+        </script>
+        <!--<style type="text/css">-->
+            <!--label { width: 10em; float: none; }-->
+            <!--label.error { float: none; color: red; padding-left: .5em; vertical-align: top; }-->
+            <!--p { clear: both; }-->
+            <!--.submit { margin-left: 12em; }-->
+            <!--em { font-weight: bold; padding-right: 1em; vertical-align: top; }-->
+        <!--</style>-->
+    </head>
+    <body>
+        <div class="topWrapper">
+            <div class="topContainer">
+                <div id="logoContainer">
+                    <img src="logo.png" id="logo">
+                </div>
+                <div id="nameContainer">
+                    <span class="name">DeLong Traffic Offender Assessment Services</span>
+                </div>
+                <div id="mosatop">
+                    <img src="missouri.png" id="missouri">
+                </div>
+                <div id="townContainer">
+                    <a href="http://www.chillicothecity.org/" title="www.chillicothecity.org"><span class="name" id="townName">Chillicothe, MO</span></a>
+                </div>
+                <div id="satopHeaderContainer">
+                    <span class="name" id="satopHeader"><strong>SATOP</strong> Services</span>
+                </div>
+            </div>
+        </div>
+        <div class="leftWrapper">
+            <div class="navbar" id="sidebar">
+                <a href="index2.html"><button type="button" class="btn btn-primary">Home</button></a>
+                <a href="services.html"><button type="button" class="btn btn-primary">Services</button></a>
+                <a href="satop_info.html"><button type="button" class="btn btn-primary" id="info">SATOP Information</button></a>
+                <a href="schedule.html"><button type="button" class="btn btn-primary" id="sched">Program Schedule</button></a>
+                <a href="about.html"><button type="button" class="btn btn-primary">About</button></a>
+                <a href="contact_us.html"><button type="button" class="btn btn-primary">Contact Us</button></a>
+            </div>
+        </div>
+        <div class="rightWrapper">
+            <div id="dmhContainer">
+                <a href="https://dmh.mo.gov/ada/satop/"><img src="dmh_logo.png" id="dmhLogo" title="https://dmh.mo.gov/ada/satop/"></a>
+            </div>
+        </div>
+        <div class="mainBody">
+            <div class="mainForm">
+                <br>&nbsp;
+                <br>&nbsp;<br>
+                <form class="cmxform" id="commentForm" method="POST" action="">
+                    <fieldset>
 
-                <legend>Please leave us your NAME, E-MAIL, and PHONE NUMBER with your message</legend>
-                <p>
-                    <label for="name">Name</label>
-                    <em>*</em><input id="name" name="name" size="25" class="required" minlength="2" />
-                </p>
-                <p>
-                    <label for="email">E-Mail</label>
-                    <em>*</em><input id="email" name="email" size="25"  class="required email" />
-                </p>
-                <p>
-                    <label for="comment">Message</label>
-                    <em>*</em><textarea id="comment" name="comment" cols="22"  class="required"></textarea>
-                </p>
-                <p>
-                    <input class="submit" type="submit" value="Submit"/>
-                </p>
-            </fieldset>
-        </form>
-    </div>
-</div>
-<div class="leftWrapper">
-</div>
-<div class="rightWrapper">
-</div>
-<div class="bottomWrapper">
-</div>
-</body>
+                        <legend>Please leave us your NAME, E-MAIL, and PHONE NUMBER with your message</legend>
+                        <p>
+                            <label for="name">Name</label>
+                            <em>*</em><input id="name" name="name" size="25" class="required" minlength="2" />
+                        </p>
+                        <p>
+                            <label for="email">E-Mail</label>
+                            <em>*</em><input id="email" name="email" size="25"  class="required email" />
+                        </p>
+                        <p>
+                            <label for="comment">Message</label>
+                            <em>*</em><textarea id="comment" name="comment" cols="22"  class="required"></textarea>
+                        </p>
+                        <p>
+                            <input class="submit" type="submit" value="Submit"/>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+
+        </div>
+        <div class="bottomWrapper">
+        </div>
+    </body>
     <script>
         $(".submit").click(function() {
             $("#commentForm").validate();
