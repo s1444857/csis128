@@ -2,7 +2,7 @@ html{
     font-family: 'Merriweather', Arial, sans-serif;
 }
 body {
-    height: 3600px;
+    height: 2000px;
     width: auto;
 }
 .mainBody {
@@ -30,29 +30,53 @@ body {
 
 .bodyHeader {
     position: relative;
-    left: 44px;
     top: 22px;
+    text-align: center;
+}
+
+#scheduleHeader {
+    position: relative;
+    left: 44px;
+}
+
+#servicesHeader {
+    font-size: 36px;
 }
 
 .introParagraph {
     font-size: 18px;
     width: 80%;
     height: 150px;
+    text-align: left;
+    position: relative;
+    left: 143.705px;
+}
+
+#firstHeader {
+    position: relative;
+    top: 22px;
+}
+
+#firstParagraph {
     position: relative;
     left: 143.705px;
     top: 40px;
-    text-align: left;
 }
 
-.secondHeader {
+.secondHeader{
     position: relative;
     left: 44px;
 }
 
 .secondParagraph {
     position: relative;
-    left: 130px;
-    font-size: 18px;
+    left: 143.705px;
+}
+
+.clickHere {
+    position: relative;
+    left: 143.705px;
+    font-size: 26px;
 }
 
 .introDiv {
@@ -195,6 +219,7 @@ body {
     position: static;
     display: block;
     float: left;
+    padding-bottom: 4px;
 }
 
 .rightWrapper {
@@ -204,6 +229,7 @@ body {
     position: static;
     display: block;
     float: right;
+    padding-bottom: 4px;
 }
 
 #dmhContainer {
@@ -228,6 +254,7 @@ body {
     background-color: #3a5170;
     display: inline-block;
     padding-bottom: 12px;
+    margin-bottom: 4px;
 }
 .mainForm {
     text-align: center;
@@ -258,6 +285,11 @@ body {
 .serviceDescription {
     position: relative;
     left: 112px;
+
+}
+
+#assessmentCost {
+    width: 80%;
 }
 
 body div table tr td {
