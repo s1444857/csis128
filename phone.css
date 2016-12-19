@@ -191,6 +191,9 @@ body {
 }
 
 .topWrapper {
+    display: -webkit-flex;
+    display : flex;
+    direction: ltr;
     height: 158px;
     width: 100%;
     position: static;
@@ -199,21 +202,25 @@ body {
 }
 
 .leftWrapper {
+    display: -webkit-flex;
+    display : flex;
+    direction: ltr;
     background-color: #3a5170;
     height: 100%;
     width: 225px;
     position: static;
-    display: block;
     float: left;
     padding-bottom: 4px;
 }
 
 .rightWrapper {
+    display: -webkit-flex;
+    display : flex;
+    direction: ltr;
     background-color: #3a5170;
     height: 100%;
     width: 225px;
     position: static;
-    display: block;
     float: right;
     padding-bottom: 4px;
 }
