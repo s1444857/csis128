@@ -92,9 +92,15 @@ body {
 #m-contact-us-p {
     margin: 0 auto;
     text-align: left;
-    background-color: lightgray;
     opacity: 0.95;
     padding: 2px 2px 2px 2px;
+    background:#fcfcfc repeat-x left bottom;
+    border:1px solid #ccc;
+    border-bottom:2px solid #bbb;
+    border-top:1px solid #ddd;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
 }
 
 #m-map {
