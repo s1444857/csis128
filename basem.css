@@ -1,5 +1,9 @@
 html {
     font-family: 'Merriweather', Arial, sans-serif;
+    display: -webkit-flex;
+    display : flex;
+    direction: ltr;
+    flex: auto;
 }
 
 body {
