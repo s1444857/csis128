@@ -110,12 +110,27 @@ body {
 
 }
 
-#cost-p {
+.cost-p {
     line-height: 200%;
     width: 90%;
     margin: 0 auto;
 }
 
+#visit-dmh {
+    text-align: center;
+}
+
 #m-services-header {
+text-align: center;
+}
+
+#what-is-satop {
+    margin: 0 auto;
+    text-align: justify;
+    text-justify: auto;
+    width: 90%;
+}
+
+#more-info {
 text-align: center;
 }
