@@ -199,9 +199,9 @@ body {
     height: 36px;
     font-size: 14px;
     opacity: 0.95;
-    box-shadow: 1px 1px 2px 2px #3a5170;
-    background: linear-gradient(to bottom, #F8F8F8 50%, #F0F0F0 40%);
     margin: 12px 0px 12px 0px;
+    box-shadow: 2px 2px #193051;
+    background: linear-gradient(to bottom, #F8F8F8 50%, #F0F0F0 40%);
 }
 
 .btn.btn-primary:hover {
@@ -350,3 +350,17 @@ body div table {
     width: 612px;
 }
 
+.cost-p {
+    line-height: 200%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#visit-dmh {
+    text-align: center;
+}
+
+#btn-visit-dmh {
+    width: 300px;
+    height: 100px;
+}
